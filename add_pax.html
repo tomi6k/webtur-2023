@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - WebTur</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+
+    <div class="logo">NUEVO PASAJERO</div>
+
+    <form action="consultPax.php" method="POST">
+        <label for="apellidoPax">APELLIDO/S:</label>
+        <input type="text" name="apellidoPax" placeholder="Apellido/s del pasajero" required>
+        <label for="nombrePax">NOMBRE/S:</label>
+        <input type="text" name="nombrePax" placeholder="Nombre/s del pasajero"required>
+        <label for="dniPax">DOCUMENTO DE IDENTIDAD N°:</label>
+        <input type="text" name="dniPax" placeholder="D.N.I. N°:" required>
+        <label for="nacPax">FECHA DE NACIMIENTO:</label>
+        <input type="text" name="nacPax" placeholder="Fecha de nacimiento: DD/MM/AAAA">
+        <label for="telPax">TELEFONO/S:</label>
+        <input type="text" name="telPax" placeholder="Numero de telefono">
+        <input type="text" name="telPax2" placeholder="Numero de telefono alternativo">
+        <label for="domicPax">DOMICILIO:</label>
+        <input type="text" name="domicPax" placeholder="Domicilio">
+        <label for="ciudadPax">PROV. DE RESIDENCIA:</label>
+        <input type="text" name="ciudadPax" placeholder="Ciudad donde reside">
+        <label for="viajePax">DESTINO CONTRATADO:</label>
+        <input type="text" name="destinoPax" placeholder="ID DESTINO (EN REVISION)">
+        <input type="submit" value="Guardar nuevo pajero"> 
+        
+    </form>
+
+
+</body>
+</html>
